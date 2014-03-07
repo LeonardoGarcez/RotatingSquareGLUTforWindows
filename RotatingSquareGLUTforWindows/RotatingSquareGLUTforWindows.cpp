@@ -48,7 +48,7 @@ void init(void) {
 void display(void) {
   glClear(GL_COLOR_BUFFER_BIT);
 
-  theta += 0.1;
+  theta += 0.0005;
   glUniform1f(thetaLoc, theta);
 
   glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
